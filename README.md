@@ -1,8 +1,8 @@
-# Repository for: ln(MIC) Prediction of Bis-Imidazolium Chlorides Using PCA–MLP Models
+# Repository for: ln(MIC) Prediction of Bis-Imidazolium Chlorides Using CART-PCA–MLP Models
 
 This repository contains the datasets and preprocessing scripts associated with the manuscript:
 
-_[Insert full manuscript title here]_.
+**Hybrid Machine Learning Model for Dual Prediction of Antimicrobial Activity Against _Staphylococcus aureus_ and _Candida albicans_**
 
 ## Contents of the repository
 
@@ -18,20 +18,10 @@ _[Insert full manuscript title here]_.
 Python scripts used for:
 - descriptor filtering and preparation,
 - preprocessing and standardisation,
-- preparing PCA input matrices.
 
 Scripts included:
-- `preprocessing_pipeline.py`
-- `pca_preparation.py`
+- `preprocessing.py`
 - `requirements.txt`
-
-### 📁 `models/`
-Neural network models (PCA–MLP) were created and trained in **Statistica**.  
-A note is provided for clarity:
-- `NOTE_models_created_in_STATISTICA.txt`
-
-### 📁 `docs/`
-Optional workflow diagrams and supplementary materials.
 
 ## Reproducibility
 - Datasets are provided in `.csv` format.
