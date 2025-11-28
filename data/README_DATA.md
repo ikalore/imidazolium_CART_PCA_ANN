@@ -1,0 +1,2 @@
+- descriptors_full_5270.csv: full Dragon descriptor set (N = 5270 variables) used as the starting point for modelling.
+- descriptors_filtered_54.csv: reduced descriptor set derived from the intersection of pathogen-specific CART analyses for *S. aureus* and *C. albicans*.
